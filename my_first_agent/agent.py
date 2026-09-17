@@ -14,6 +14,10 @@ root_agent = Agent(
 
     # Plano comportamental descrito de como o agente age.
 
-
+"""
+- ✅ Definição específica do papel (orientador de matemática)
+- ✅ Personalidade clara (paciente)
+- ✅ Definição do escopo da tarefa (problemas de álgebra)
+"""
 
 )
