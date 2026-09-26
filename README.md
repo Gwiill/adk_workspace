@@ -1,9 +1,5 @@
 # 🤖 [Nome do Agente] — Arquitetura de Prompt Avançada
 
-![Version](https://shields.io)
-![LLM-Ready](https://shields.io)
-![Framework](https://shields.io)
-
 Este repositório contém a especificação técnica e a engenharia de prompt para o **[Nome do Agente]**, um agente inteligente projetado sob uma arquitetura modular em camadas, focado em previsibilidade, segurança e eliminação de alucinações através de respostas embasadas em fatos.
 
 ## 🏗️ Arquitetura do Prompt
