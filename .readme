@@ -1,0 +1,16 @@
+Cinco padrões reutilizáveis criam instruções profissionais:
+1. Identidade: quem é o agente
+2. Missão: o que o agente faz
+3. Metodologia: como o agente funciona
+4. Limites: o que o agente não faz
+5. Exemplos: como o agente deve responder
+- Os limites de instrução são uma camada extra às configurações de segurança do LLM
+para controle específico do papel.
+- As respostas baseadas em ferramentas reduzem alucinações porque são embasadas
+em fatos.
+- A formatação Markdown melhora a compreensão e a consistência do LLM (conforme
+as práticas recomendadas do ADK).
+- Os padrões podem ser combinados para tipos de agente diferentes.
+
+Arquitetura aplicada a LLMs:
+Arquitetura modular em camadas: Você separou a instrução em 5 padrões bem definidos (Identidade, Missão, Metodologia, Limites e Exemplos). Isso transforma o prompt numa especificação técnica auditável.Máquina de estados operacional (SOP): A metodologia em 4 etapas (Reconhecer $\rightarrow$ Esclarecer $\rightarrow$ Resolver $\rightarrow$ Verificar) impede respostas afobadas e força o agente a diagnosticar o problema antes de cuspir uma solução errada.Segurança e conformidade (Guardrails): A seção "O que você nunca deve fazer" protege o sistema contra vazamento de credenciais, responsabilidades legais/financeiras e ataques de engenharia social (prompt injection).Calibragem por imitação (Few-Shot): Os diálogos de exemplo ensinam o tom e a concisão de forma muito mais eficaz do que apenas dizer "seja conciso", dando ao modelo um gabarito visual de como agir em casos de recusa ou falta de informação.
