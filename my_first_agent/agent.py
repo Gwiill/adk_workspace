@@ -1,3 +1,9 @@
+import os
+from dotenv import load_dotenv
+
+# Carrega a chave de API do arquivo .env ANTES de iniciar o agente
+load_dotenv(override=True)
+
 from google.adk.agents import LlmAgent
 from google.adk.planners import BuiltInPlanner
 from pydantic import BaseModel, Field
@@ -12,7 +18,7 @@ class SupportTicketResponse(BaseModel):
 
 # 2. CONFIGURAÇÃO DO AGENTE
 root_agent = LlmAgent(
-    model="gemini-2.5-flash", # Corrigido para 2.5-flash conforme recomendado para produção e velocidade
+    model="gemini-3.8-flash", # Corrigido para 2.5-flash conforme recomendado para produção e velocidade
     name="support_specialist",
     description="Agente de suporte ao cliente profissional com definição e limites claros do papel",
     
