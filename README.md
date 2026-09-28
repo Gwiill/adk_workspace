@@ -67,6 +67,3 @@ Calibragem por imitação que define o tom, a concisão e o comportamento visual
 1. Copie o arquivo de prompt estruturado em `prompts/[nome_do_agente].md`.
 2. Cole na configuração de sistema (System Prompt) do seu provedor de LLM de preferência (OpenAI, Anthropic, Google Vertex, etc.).
 3. Vincule as ferramentas de busca ou RAG necessárias para o funcionamento da **Metodologia**.
-
----
-Como este README foi útil para você? Se gostou desta arquitetura de prompt, deixe uma ⭐ no repositório!
