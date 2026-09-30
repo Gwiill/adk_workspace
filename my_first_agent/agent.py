@@ -35,7 +35,7 @@ root_agent = LlmAgent(
         temperature=0.5, 
     ),
     
-    # 5. APLICAÇÃO DO ESQUEMA DE SAÍDA E ESTADO
+    # 5. APLICAÇÃO DO ESQUEMA DE SAÍDA
     output_schema=SupportTicketResponse,
     output_key="support_ticket_result", # Salvará o JSON final no estado da sessão
 
